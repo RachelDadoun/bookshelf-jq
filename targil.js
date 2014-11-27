@@ -34,7 +34,7 @@ function AddBookToLi(i){
     $("#" + Books[i].id).append("<label>" + Books[i].bookName + "</label>");
     $("#" + Books[i].id).append("<label>" + Books[i].bookAuthor + "</label>");
     $("#" + Books[i].id).append("<label>" + Books[i].bookScore + "</label>");
-     $("#" + Books[i].id).append("<button>" + Books[i].bookScore + "</button>");
+    $("#" + Books[i].id).append("<button>" + Books[i].bookScore + "</button>");
   
 };
 
