@@ -2,9 +2,9 @@ $("document").on("ready", function(){
 window.Books=[];
 window.seq=0;
 
-$(".adddBookForm button:nth(0)").on("click",function(){
+$(".addBookForm button:nth(0)").on("click",function(){
 
-newBook = Book ($(".adddBookForm input:nth(0)").val(),$(".adddBookForm input:nth(1)").val(), $(".adddBookForm input:nth(1)").val())
+newBook = Book ($(".addBookForm input:nth(0)").val(),$(".addBookForm input:nth(1)").val(), $(".addBookForm input:nth(1)").val())
 books.push(newBook);
 BuildBookList();
 
