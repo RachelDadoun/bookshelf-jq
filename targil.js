@@ -2,7 +2,7 @@ $("document").on("ready", function(){
 window.Books=[];
 window.seq=0;
 
-$(".adddBookForm button:nth(1)").on("click",function(){
+$(".adddBookForm button:nth(0)").on("click",function(){
 
 newBook = Book ($(".adddBookForm input:nth(0)").val(),$(".adddBookForm input:nth(1)").val(), $(".adddBookForm input:nth(1)").val())
 books.push(newBook);
