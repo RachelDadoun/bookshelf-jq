@@ -1,4 +1,4 @@
-$(document).on("ready", function(){
+$("document").on("ready", function(){
 window.Books=[];
 window.seq=0;
 
