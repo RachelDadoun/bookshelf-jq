@@ -29,13 +29,6 @@ function BuildBookList(){
 function AddBookToLi(i){
     FillTemplate(i);
     AddTemplate();
-    $("ul")append("#template");
-    $("li:last-nth").attr("id", Books[i].id);
-    $("#" + Books[i].id).append("<label>" + Books[i].bookName + "</label>");
-    $("#" + Books[i].id).append("<label>" + Books[i].bookAuthor + "</label>");
-    $("#" + Books[i].id).append("<label>" + Books[i].bookScore + "</label>");
-    $("#" + Books[i].id).append("<button>" + Books[i].bookScore + "</button>");
-  
 };
 
 function FillTemplate(i){
